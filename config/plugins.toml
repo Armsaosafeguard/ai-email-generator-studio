@@ -1,0 +1,15 @@
+# Plugin activation map. Loader reads this on boot.
+[enabled]
+openai_provider = true
+anthropic_provider = false
+local_llama_provider = false
+tone_professional = true
+tone_casual = true
+tone_apology = false
+exporter_markdown = true
+exporter_eml = true
+
+[loader]
+strict_manifests = true
+allow_hot_reload = true
+trusted_publishers = ["studio-core", "community-verified"]
