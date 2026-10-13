@@ -1,0 +1,1 @@
+"""Console-first UI. A Qt shell can wrap these views later."""
