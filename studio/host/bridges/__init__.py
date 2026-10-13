@@ -1,0 +1,1 @@
+"""Subprocess bridges for non-Python plugins (C++, C#, Java)."""
