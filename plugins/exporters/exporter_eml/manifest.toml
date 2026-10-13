@@ -1,0 +1,6 @@
+name = "exporter_eml"
+kind = "exporter"
+version = "0.5.2"
+author = "community-verified"
+entry = "plugin.py"
+class = "EmlExporter"
