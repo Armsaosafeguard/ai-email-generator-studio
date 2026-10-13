@@ -1,0 +1,11 @@
+name = "openai_provider"
+kind = "provider"
+version = "0.6.1"
+author = "studio-core"
+entry = "plugin.py"
+class = "OpenAIProvider"
+isolation = "inproc"
+
+[[capabilities]]
+name = "network"
+detail = "calls api.openai.com"
